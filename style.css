@@ -20,7 +20,7 @@ a {
 .header-logo {
   color: #F9FAF8;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 h1 {
@@ -31,13 +31,22 @@ h1 {
 }
 
 .content-body {
-  padding: 20px 20%;
+  padding: 20px 0;
 }
 
 p {
   padding: 0;
   margin: 0 0 5px;
+}
+
+#content-1-subtext {
   color: #E5E7EB;
+}
+
+#content-2-subtext {
+  color: #1F2937;
+  font-size: small;
+  font-weight: 300;
 }
 
 .content-1 {
@@ -46,23 +55,27 @@ p {
 }
 
 .content-1-content {
-  width: 50%;
+  width: 30%;
   flex-shrink: 0;
-  margin: 20px 20px;
+  margin: 20px 0 10px 20%;
+}
+
+.content-1-img-container {
+  width: 30%;
+  margin: 20px 20% 10px 0;
+  text-align: center;
 }
 
 .content-1-img {
-  width: 400px;
-  height: 300px;
+  width: 350px;
   background-color: #E5E7EB;
   color: #F9FAF8;
-  margin: 0 auto;
 }
 
-.content-1-btn {
+.signup-btn {
   background-color: #3882F6;
   border: 0;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 10px 30px;
   color: #E5E7EB;
   font-weight: 700;
@@ -70,16 +83,87 @@ p {
 
 .content-2 {
   text-align:center;
+  padding: 30px 0 50px;
+}
+
+.content-2-card {
+  margin: 10px;
+  width: 130px;
 }
 
 .content-2-img {
-  height: 200px;
-  width: 250px;
+  height: 125px;
+  width: 125px;
   border: 2px solid #3882F6;
   border-radius: 15px;
+  object-fit: cover;
+}
+
+.content-2-img-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px 20% 10px;
 }
 
 h2 {
   font-size: 36px;
+  font-weight: 900;
   color: #1F2937;
+}
+
+.content-3 {
+  background-color: #E5E7EB;
+  padding: 50px 20% 50px;
+}
+
+#content-3-quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+#content-3-attr {
+  text-align: right;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.content-4 {
+  padding: 50px 20% 50px;
+}
+
+.content-4-container {
+  display: flex;
+  background-color: #3882F6;
+  border-radius: 10px;
+  padding: 40px 50px;
+  color: #E5E7EB;
+}
+
+#content-4-title {
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: 700;
+}
+#content-4-subtext {
+  color: #F9FAF8;
+  font-weight: 300;
+}
+
+#content-4-btn {
+  border: 1px solid #E5E7EB;
+  height: 28px;
+  padding: 5px 20px;
+  margin: auto;
+}
+
+footer {
+  background-color: #1F2937;
+  color: #E5E7EB;
+  text-align: center;
+  padding: 20px;
+}
+
+#footer-text {
+  font-weight: 300;
 }
